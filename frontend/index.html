@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pear Media Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Text to Image Generator</h1>
+
+<textarea id="prompt" placeholder="Enter your idea..."></textarea>
+<button onclick="enhanceText()">Enhance Prompt</button>
+
+<p id="enhancedText"></p>
+
+<button onclick="generateImage()">Generate Image</button>
+<br><br>
+<img id="outputImage" width="300"/>
+
+<hr>
+
+<h1>Image Analysis</h1>
+
+<input type="file" id="imageUpload">
+<button onclick="analyzeImage()">Analyze Image</button>
+
+<p id="imageResult"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
